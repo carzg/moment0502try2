@@ -19,7 +19,7 @@ app.get('/', (req, res)=>{
 })
 
 // const CONNECTION_URL = "mongodb+srv://luke:yu19940719@cluster0.catds.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-const PORT = process.env.PORT || 50000;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect(process.env.CONNECTION_URL)
     .then(() => app.listen(PORT, () => console.log(`Server is running on PORT: ${PORT}`)))
