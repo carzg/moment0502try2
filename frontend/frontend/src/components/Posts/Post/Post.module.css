@@ -1,0 +1,78 @@
+.post{
+    border: 1px solid black;
+    margin: 20px;
+    width: 250px;
+    height: 280px;
+    position: relative;
+}
+
+.post img{
+    width:250px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.post .header{
+    width: 200px;
+    position: absolute;
+    top: -2px;
+    left: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    z-index: 99;
+}
+
+.post .createdAt{
+    position: absolute;
+    color: #fff;
+    font-size: 0.3rem;
+    left: 16px;
+    top: 50px;
+}
+
+.post .tags{
+    position:absolute;
+    left:14px;
+    top:130px;
+    font-size: 0.6rem;
+    color: grey;
+}
+
+.post .title{
+    position: absolute;
+    left: 14px;
+    top: 147px;
+    font-size: 1rem;
+}
+
+.post .message{
+    position: absolute;
+    left:14px;
+    top: 177px;
+    font-size: 0.8rem;
+    width: 227px;
+    word-break: break-all;
+}
+
+.post .footer{
+    position: absolute;
+    left: 17px;
+    bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+    font-size: 0.8rem;
+}
+
+.post .footer p{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+}
+
+.post .delete, .post .like {
+    cursor: pointer;
+}

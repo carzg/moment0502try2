@@ -1,0 +1,33 @@
+.body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.NavBar {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color:rgb(51, 51, 238);
+}
+
+.NavBar img{
+    height: 60px;
+    margin-left: 50px;
+}
+
+.Content{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 970px;
+    display: flex;
+    justify-content: space-between;
+}

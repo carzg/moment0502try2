@@ -1,0 +1,10 @@
+.posts{
+    width:600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items:stretch;
+    align-items: stretch;
+}
+
